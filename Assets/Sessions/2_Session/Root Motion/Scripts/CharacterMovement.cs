@@ -7,9 +7,12 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private Camera m_Camera;
     [SerializeField] private FloatDampener speedX;
     [SerializeField] private FloatDampener speedY;
+    [SerializeField] private float angularSpeed;
 
     private Animator animator;
     private int speedXHash, speedYHash;
+
+    private Quaternion targetRotation;
 
     private void Awake()
     {
@@ -28,11 +31,7 @@ public class CharacterMovement : MonoBehaviour
         Vector2 inputValue = ctx.ReadValue<Vector2>();
         speedX.TargetValue = Mathf.Clamp(inputValue.x, -1f, 1f);
         speedY.TargetValue = Mathf.Clamp(inputValue.y, -1f, 1f);
-        if (inputValue.magnitude > .1f)
-        {
 
-        }
-        SolveCharacterRotation();
     }
 
     private void SolveCharacterRotation()
@@ -47,6 +46,9 @@ public class CharacterMovement : MonoBehaviour
 
         Vector3 characterForward = Vector3.ProjectOnPlane(cameraForward, floorNormal).normalized;
         Debug.DrawLine(transform.position, transform.position + characterForward * 2, Color.magenta, 5f);
+        Quaternion lookRotation = Quaternion.LookRotation(cameraForward, floorNormal);
+        targetRotation = Quaternion.RotateTowards(targetRotation, lookRotation, angularSpeed);
+
     }
 
     private void Update()
@@ -56,5 +58,10 @@ public class CharacterMovement : MonoBehaviour
 
         animator.SetFloat(speedXHash, speedX.CurrentValue);
         animator.SetFloat(speedYHash, speedY.CurrentValue);
+        SolveCharacterRotation();
+        float motionMagnitude = Mathf.Sqrt(speedX.TargetValue * speedX.TargetValue + speedY.TargetValue * speedY.TargetValue);
+        float rotationSpeed = Mathf.SmoothStep(0, .1f, motionMagnitude);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, angularSpeed * rotationSpeed);
+        
     }
 }

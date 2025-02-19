@@ -25,7 +25,7 @@ public class CharacterLook : MonoBehaviour
         }
 
         Quaternion horizontalRotation = Quaternion.AngleAxis(horizontalDampener.CurrentValue, transform.up);
-        transform.rotation = horizontalRotation;
+        target.rotation = horizontalRotation;
     }
 
     private void Update()
