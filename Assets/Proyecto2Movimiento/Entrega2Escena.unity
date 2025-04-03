@@ -486,6 +486,178 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1001 &494267780
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.65959835
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.243541
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_Name
+      value: ReadyPlayerMeCharacter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: dbad57f44f6d0334b9e5ea758484f839, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 494267782}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 494267783}
+  m_SourcePrefab: {fileID: 100100000, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+--- !u!1 &494267781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+  m_PrefabInstance: {fileID: 494267780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &494267782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494267781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bae85e4e585dc409dd5e16afb7d19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 494267784}
+  cameraTransform: {fileID: 330585546}
+  motionVector:
+    smoothTime: 0
+    clampMagnitude: 0
+--- !u!114 &494267783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494267781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 8a0c5f8bbeb184b48b4c739ae709306c, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 494267782}
+        m_TargetAssemblyTypeName: DC_Controller, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 37e6f676-3001-46b4-9ee1-d8bf2e6cdf63
+    m_ActionName: '3D Movement/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 494267782}
+        m_TargetAssemblyTypeName: DC_Controller, Assembly-CSharp
+        m_MethodName: Jump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 948890b8-127b-4d0f-8373-b8f48ba1e610
+    m_ActionName: '3D Movement/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 494267782}
+        m_TargetAssemblyTypeName: DC_Controller, Assembly-CSharp
+        m_MethodName: ToggleSprint
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 65e2f3c8-a5aa-45b8-8c2d-87ff59db7198
+    m_ActionName: '3D Movement/Sprint[/Keyboard/shift]'
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 3D Movement
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!95 &494267784 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 18cee5266c41e01438eb9f29e08bb507, type: 3}
+  m_PrefabInstance: {fileID: 494267780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,3 +715,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 248587739}
+  - {fileID: 494267780}
