@@ -1,11 +1,13 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 using CallbackContext = UnityEngine.InputSystem.InputAction.CallbackContext;
 
 public class DC_Controller : MonoBehaviour
 {
     [SerializeField]
-    private Animator anim;
+    private Animator animator;
 
     [SerializeField] 
     private Transform cameraTransform;
@@ -13,52 +15,63 @@ public class DC_Controller : MonoBehaviour
     [SerializeField]
     private VectorDamper motionVector = new VectorDamper(true);
 
-    private int velXID, velYID;
-
-    public void Awake()
+    private int _xid, _yid;
+    private bool _isSprinting;
+    private float _directionMultiplier;
+    private Vector2 _currentDirection;
+    
+    private void Awake()
     {
-        velXID = Animator.StringToHash("SpeedX");
-        velYID = Animator.StringToHash("SpeedY");
+        _xid = Animator.StringToHash("SpeedX");
+        _yid = Animator.StringToHash("SpeedY");
+        
+        if (animator == null)
+            Debug.LogError("Animator is not assigned!", this);
+        
+        if (cameraTransform == null)
+            Debug.LogError("Camera Transform is not assigned!", this);
+    }
+    
+    private void Update()
+    {
+        motionVector.Update();
+        _directionMultiplier = (_isSprinting ? 1f : 0.5f);
+        motionVector.TargetValue = _currentDirection * _directionMultiplier;
+        
+        animator.SetFloat(_xid, motionVector.CurrentValue.x);
+        animator.SetFloat(_yid, motionVector.CurrentValue.y);
     }
 
     public void Move(CallbackContext ctx)
     {
-        Vector2 direction = ctx.ReadValue<Vector2>();
-
-        motionVector.TargetValue = direction;
-
+        _currentDirection = ctx.ReadValue<Vector2>();
+        motionVector.TargetValue = _currentDirection * _directionMultiplier;
     }
 
     public void Jump(CallbackContext ctx)
     {
-        if (ctx.performed)
+        if (ctx.performed && !animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
         {
-            anim.SetTrigger("Jump");
+            animator.SetTrigger("Jump");
         }
     }
 
     public void ToggleSprint(CallbackContext ctx)
     {
-        bool val = ctx.ReadValueAsButton(); 
-        motionVector.Clamp = !val;
-    }
-
-    private void Update()
-    {
-        motionVector.Update();
-
-
-        anim.SetFloat(velXID, motionVector.CurrentValue.x);
-        anim.SetFloat(velYID, motionVector.CurrentValue.y);
+        _isSprinting = ctx.ReadValueAsButton();
+        motionVector.Clamp = !_isSprinting;
+        _directionMultiplier = (_isSprinting ? 1f : 0.5f);
+        motionVector.TargetValue = _currentDirection * _directionMultiplier;
     }
 
     private void OnAnimatorMove()
     {
-        float interpolator = Mathf.Abs(Vector3.Dot(cameraTransform.forward, transform.up));
-        Vector3 forward = Vector3.Lerp(cameraTransform.forward, cameraTransform.up, interpolator);
+        float interpolate = Mathf.Abs(Vector3.Dot(cameraTransform.forward, transform.up));
+        Vector3 forward = Vector3.Lerp(cameraTransform.forward, cameraTransform.up, interpolate);
         Vector3 projected = Vector3.ProjectOnPlane(forward, transform.up);
         Quaternion rotation = Quaternion.LookRotation(projected, transform.up);
-        anim.rootRotation = Quaternion.Slerp(anim.rootRotation, rotation, motionVector.CurrentValue.magnitude);
-        anim.ApplyBuiltinRootMotion();
+        
+        animator.rootRotation = Quaternion.Slerp(animator.rootRotation, rotation, motionVector.CurrentValue.magnitude);
+        animator.ApplyBuiltinRootMotion();
     }
 }

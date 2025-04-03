@@ -10,6 +10,10 @@ public struct VectorDamper
     [SerializeField] private float smoothTime;
     [SerializeField] private float clampMagnitude;
     private bool clamp;
+    
+    public Vector2 CurrentValue => currentValue;
+    public Vector2 TargetValue { set => targetValue = value; }
+    public bool Clamp { set => clamp = value; }
 
     public VectorDamper(bool clamp)
     {
@@ -26,9 +30,8 @@ public struct VectorDamper
         currentValue = Vector2.SmoothDamp(currentValue,
             clamp ? Vector2.ClampMagnitude(targetValue, clampMagnitude) : targetValue,
             ref velocity, smoothTime);
+        
     }
 
-    public Vector2 CurrentValue => currentValue;
-    public Vector2 TargetValue { set => targetValue = value; }
-    public bool Clamp { set => clamp = value; }
+   
 }
