@@ -7,5 +7,9 @@ https://github.com/user-attachments/assets/6c818969-db58-4fb8-9ec3-adeff9a2ea53
 
 https://github.com/user-attachments/assets/4d917ac1-7cd6-4b92-800e-7b3f6f9b58a7
 
+## Entrega 2
+
+
+https://github.com/user-attachments/assets/39bf580d-8fde-44cc-a09d-ea0c813a1dca
 
 
