@@ -35,12 +35,6 @@ public class Carl_Movement : MonoBehaviour
         if (val) anim.SetTrigger("Jump");
     }
 
-    public void ToggleSprint(CallbackContext ctx)
-    {
-        bool val = ctx.ReadValueAsButton();
-        motionVector.Clamp = !val;
-    }
-
     private void Update()
     {
         if (anim == null) return;
