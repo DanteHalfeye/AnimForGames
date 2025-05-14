@@ -6,313 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="04a6c234-b15b-4ae3-ae14-4424100a37cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Jump_antiBuffering.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Jump_antiBuffering.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Materials/Checker.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Materials/Checker.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Materials/TwoCel.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Materials/TwoCel.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Quad.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Quad.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/Carl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/Carl/CJBlender.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/Carl/CJBlender.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/Carl/CarlJhonson.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/Carl/CarlJhonson.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/HUNK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/HUNK/HUNK.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/HUNK/HUNK.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO/AvatarBlend.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO/AvatarBlend.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO/AvatarNoRig.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO/AvatarNoRig.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO/AvatarRigged.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/3D MODELS/POLLITO/AvatarRigged.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/CARL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/CARL/CarlController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/CARL/CarlController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/CARL/characterA@Strut Walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/CARL/characterA@Strut Walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK/ANIMATIONS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK/ANIMATIONS/CROUCH_WALK MIXAMO.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK/ANIMATIONS/CROUCH_WALK MIXAMO.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK/ANIMATORS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK/ANIMATORS/HUNK.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/HUNK/ANIMATORS/HUNK.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito/AvatarFBX@Bored.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito/AvatarFBX@Bored.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito/AvatarFBX@Neutral Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito/AvatarFBX@Neutral Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito/PollitoAvatarController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Animaciones/Pollito/PollitoAvatarController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes/CarlScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes/CarlScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes/HunkScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes/HunkScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes/PollioScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Scenes/PollioScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Glossiness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Glossiness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1001_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Glossiness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Glossiness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1002_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Glossiness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Glossiness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_1003_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_body1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_body1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_body2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/HUNK/Ch35_body2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Body.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Body.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Eye.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Eye.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Hair.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Hair.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Outfit_Bottom.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Outfit_Bottom.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Outfit_Footwear.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Outfit_Footwear.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Outfit_Top.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Outfit_Top.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Skin.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Skin.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Teeth.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Teeth.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Teeth.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/Wolf3D_Teeth.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.020.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.021.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.022.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/baseColor.023.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/boots-sport-02-M-boots-sport-02-sunyellow-R.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/boots-sport-02-M-boots-sport-02-sunyellow-R.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/boots-sport-02-sunyellow-C.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/boots-sport-02-sunyellow-C.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/boots-sport-02-sunyellow-N.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/boots-sport-02-sunyellow-N.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/hair-68-N.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/hair-68-N.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/pants-military-01-scifi-C.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/pants-military-01-scifi-C.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/pants-military-01-scifi-M-pants-military-01-scifi-R.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/pants-military-01-scifi-M-pants-military-01-scifi-R.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/pants-military-01-scifi-N.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/pants-military-01-scifi-N.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/tshirt-01-N.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/tshirt-01-N.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/tshirt-01-R.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/tshirt-01-R.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/tshirt-01-wine-C.001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/Mats_Textures/tshirt-01-wine-C.001.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Glossiness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Glossiness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1001_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Glossiness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Glossiness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_1002_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_body1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_body1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_eyelashes.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto1Rig/Textures/TexturesCarl/Ch06_eyelashes.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/0. Idle Jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/0. Idle Jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/0.1 Run Jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/0.1 Run Jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/0.2 Back Jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/0.2 Back Jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/1. Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/1. Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/2. Walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/2. Walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/2.1 Strafe Walk R.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/2.1 Strafe Walk R.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/2.2 Strafe Walk L.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/2.2 Strafe Walk L.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/3. Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/3. Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/3.1 Strafe Run R.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/3.1 Strafe Run R.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/3.2 Strafe Run L.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/3.2 Strafe Run L.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/4. Sprint.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/4. Sprint.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/5. Backwards Walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/5. Backwards Walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/CarlController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Animations/CarlController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Characters/CarlJhonson.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Characters/CarlJhonson.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scenes/CarlScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scenes/CarlScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts/CarlMovement.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts/CarlMovement.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts/Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts/Movement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts/VectorDamper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/CARL/Scripts/VectorDamper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Sprint.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Sprint.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Strafe.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Strafe.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/StrafeWalk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/StrafeWalk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Walking Backwards.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Walking Backwards.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/Animations/Walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/HUNK 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Animations/HUNK 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Characters/HUNK_MIXAMO.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Characters/HUNK_MIXAMO.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scenes/HunkScene 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scenes/HunkScene 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts/HunkMovement.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts/HunkMovement.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts/Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts/Movement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts/VectorDamper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/HUNK/Scripts/VectorDamper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@IdleJumping.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@IdleJumping.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@JumpBack.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@JumpBack.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Left Strafe Run.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Left Strafe Run.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Right Strafe Run.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Right Strafe Run.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@RunJump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@RunJump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Sprint.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Sprint.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walk Strafe Left.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walk Strafe Left.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walk Strafe Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walk Strafe Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walking Backwards Fast.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walking Backwards Fast.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walking Backwards.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walking Backwards.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Animations/Avatar@Walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/PollitoControls.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/PollitoControls.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Prefabs/AvatarRigged.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Prefabs/AvatarRigged.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Prefabs/FloorMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Prefabs/FloorMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Santiago.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Santiago.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Scripts/MovementController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Scripts/MovementController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Scripts/VectorDamper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Proyecto2Movimiento/SANTIAGO/Scripts/VectorDamper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Readme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Balanced-Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Balanced.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Balanced.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-HighFidelity.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Performant-Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Performant.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Settings/URP-Performant.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto1Rig/Models/Amy.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Proyecto1Rig/Models/Amy.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/Jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/Jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/RootMotion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/RootMotion.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/RunningBack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/RunningBack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/mixamo.com.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Animations/mixamo.com.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Entrega2Escena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Entrega2Escena.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Scripts/DC_Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Scripts/DC_Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Scripts/VectorDampner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Proyecto2Movimiento/Scripts/VectorDampner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Running.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Running.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Slow Run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Slow Run.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Standing Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Standing Idle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Walking (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Humanoid Animations/Y Bot@Walking (1).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/1 Character Root Motion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/1 Character Root Motion.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/CameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/CameraRig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/3_Session/SimpleCharacterMotion.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/3_Session/SimpleCharacterMotion.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/CharacterLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/CharacterLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,6 +30,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7f/84974bc4/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/ca/e490eaf0/Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5c6d48ed46b430a997a7f6acb171b701f9000/3d/ef26e924/LayoutDataStore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/09/bfec0781/Animator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -338,20 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.49422634",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe" />
@@ -382,13 +88,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24124">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="24124" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -406,6 +114,8 @@
       <updated>1740049428654</updated>
       <workItem from="1740049430413" duration="7010000" />
       <workItem from="1743659391399" duration="3485000" />
+      <workItem from="1747178945227" duration="4876000" />
+      <workItem from="1747231242602" duration="7553000" />
     </task>
     <servers />
   </component>

@@ -168,10 +168,10 @@ PrefabInstance:
       addedObject: {fileID: 6270157801997084601}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dc456905c0a6f014ab41e083fa1bc535, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5333179503110733348}
+      addedObject: {fileID: 1812380894411731360}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dc456905c0a6f014ab41e083fa1bc535, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1812380894411731360}
+      addedObject: {fileID: 5333179503110733348}
   m_SourcePrefab: {fileID: 100100000, guid: dc456905c0a6f014ab41e083fa1bc535, type: 3}
 --- !u!4 &4737469933392079105 stripped
 Transform:
@@ -205,6 +205,27 @@ MonoBehaviour:
     smoothTime: 0.5
   speedY:
     smoothTime: 0.5
+  angularSpeed: 0
+--- !u!114 &1812380894411731360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950593889040857991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dab63cf2c4c70848ad4c5d873a0ef3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 3220304645729575685}
+  horizontalDampener:
+    smoothTime: 0.5
+  verticalDampener:
+    smoothTime: 0.5
+  horizontalRotationSpeed: 90
+  verticalRotationSpeed: 0
+  verticalRotationLimits: {x: 0, y: 0}
 --- !u!114 &5333179503110733348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,27 +283,12 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: cd850970-a559-48b8-9e1f-50fb48562217
     m_ActionName: 'Character/Look[/Mouse/delta]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f8917b00-85f5-440c-86a2-ce263d9bcc23
+    m_ActionName: 'Character/Jump[/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Character
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1812380894411731360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8950593889040857991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dab63cf2c4c70848ad4c5d873a0ef3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 3220304645729575685}
-  horizontalDampener:
-    smoothTime: 0.5
-  verticalDampener:
-    smoothTime: 0.5
-  horizontalRotationSpeed: 90
-  verticalRotationSpeed: 0

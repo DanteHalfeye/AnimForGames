@@ -24,9 +24,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
+                    "name": "Lock",
                     "type": "Button",
                     "id": "f8917b00-85f5-440c-86a2-ce263d9bcc23",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "00a48b89-1df3-4514-b26f-8e1bd83daf88",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -102,12 +111,45 @@
                 },
                 {
                     "name": "",
-                    "id": "8da81665-a8f7-4c34-a702-95b32b8419dc",
-                    "path": "<Keyboard>/space",
+                    "id": "0c43bd76-2ceb-4dc0-b099-af16e327443f",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8da81665-a8f7-4c34-a702-95b32b8419dc",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6138813c-0c27-4071-9f70-2ec35193d1e7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13e162df-bc70-4677-a650-b71b461ef72f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Animator))]
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement : MonoBehaviour, ICharacterComponent
 {
     [SerializeField] private Camera m_Camera;
     [SerializeField] private FloatDampener speedX;
@@ -19,25 +19,18 @@ public class CharacterMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         speedXHash = Animator.StringToHash("SpeedX");
         speedYHash = Animator.StringToHash("SpeedY");
-
-        if (m_Camera == null)
-        {
-            Debug.LogError("Camera reference is missing in CharacterMovement!", this);
-        }
     }
 
     public void OnMove(InputAction.CallbackContext ctx)
     {
         Vector2 inputValue = ctx.ReadValue<Vector2>();
-        speedX.TargetValue = Mathf.Clamp(inputValue.x, -1f, 1f);
-        speedY.TargetValue = Mathf.Clamp(inputValue.y, -1f, 1f);
+        speedX.TargetValue = inputValue.x;
+        speedY.TargetValue = inputValue.y;
 
     }
 
     private void SolveCharacterRotation()
     {
-        if (m_Camera == null) return;
-
         Vector3 floorNormal = transform.up;
         Vector3 cameraRealForward = m_Camera.transform.forward;
 
@@ -46,8 +39,7 @@ public class CharacterMovement : MonoBehaviour
 
         Vector3 characterForward = Vector3.ProjectOnPlane(cameraForward, floorNormal).normalized;
         Debug.DrawLine(transform.position, transform.position + characterForward * 2, Color.magenta, 5f);
-        Quaternion lookRotation = Quaternion.LookRotation(cameraForward, floorNormal);
-        targetRotation = Quaternion.RotateTowards(targetRotation, lookRotation, angularSpeed);
+        targetRotation = Quaternion.LookRotation(characterForward, floorNormal);
 
     }
 
@@ -55,13 +47,20 @@ public class CharacterMovement : MonoBehaviour
     {
         speedX.Update();
         speedY.Update();
+        
 
-        animator.SetFloat(speedXHash, speedX.CurrentValue);
+        animator.SetFloat(speedXHash, speedX.CurrentValue); 
         animator.SetFloat(speedYHash, speedY.CurrentValue);
         SolveCharacterRotation();
-        float motionMagnitude = Mathf.Sqrt(speedX.TargetValue * speedX.TargetValue + speedY.TargetValue * speedY.TargetValue);
-        float rotationSpeed = Mathf.SmoothStep(0, .1f, motionMagnitude);
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, angularSpeed * rotationSpeed);
-        
+        ApplyCharacterRotation();
     }
+
+    private void ApplyCharacterRotation()
+    {
+        float motionMagnitude = Mathf.Sqrt(speedX.TargetValue * speedX.TargetValue + speedY.TargetValue * speedY.TargetValue);
+        float rotationSpeed = ParentCharacter.IsAiming ? 1: Mathf.SmoothStep(0, .1f, motionMagnitude);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, angularSpeed * rotationSpeed);
+    }
+
+    public Character ParentCharacter { get; set; }
 }
