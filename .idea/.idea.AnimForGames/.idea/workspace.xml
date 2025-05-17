@@ -7,14 +7,12 @@
     <list default="true" id="04a6c234-b15b-4ae3-ae14-4424100a37cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/1 Character Root Motion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/1 Character Root Motion.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/CameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/CameraRig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/3_Session/SimpleCharacterMotion.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/3_Session/SimpleCharacterMotion.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/CharacterLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/CharacterLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/Shared/Scripts/FloatDampener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +31,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/ca/e490eaf0/Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5c6d48ed46b430a997a7f6acb171b701f9000/3d/ef26e924/LayoutDataStore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/09/bfec0781/Animator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/2a/3aeb3a47/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -43,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "XThreadsFramesViewSplitterKey": "0.49422634",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49422634&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe" />
@@ -88,15 +87,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24124">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="24124" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -116,6 +113,8 @@
       <workItem from="1743659391399" duration="3485000" />
       <workItem from="1747178945227" duration="4876000" />
       <workItem from="1747231242602" duration="7553000" />
+      <workItem from="1747383922213" duration="2604000" />
+      <workItem from="1747443857774" duration="1709000" />
     </task>
     <servers />
   </component>
@@ -131,5 +130,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/AimBasedOnBone.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Users\Eliham\Desktop\Estudio\Unity\AnimForGames\Assets\Sessions\4_Session\Scripts\AimBasedOnBone.cs" containingFunctionPresentation="Method 'OnStateUpdate'">
+            <startOffsets>
+              <option value="818" />
+            </startOffsets>
+            <endOffsets>
+              <option value="839" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
