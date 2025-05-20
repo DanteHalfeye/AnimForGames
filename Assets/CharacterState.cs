@@ -39,7 +39,7 @@ public class CharacterState : MonoBehaviour
         currentStamina -= GetStaminaDepletion() * amount;
     }
 
-    public void DepleteHeatlth(float amount)
+    public void DepleteHealth(float amount)
     {
         currentHealth -= amount;
         if (currentHealth <= 0)
