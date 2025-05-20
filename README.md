@@ -13,5 +13,5 @@ https://github.com/user-attachments/assets/4d917ac1-7cd6-4b92-800e-7b3f6f9b58a7
 https://github.com/user-attachments/assets/39bf580d-8fde-44cc-a09d-ea0c813a1dca
 
 ## Entrega 3
-Pronto a subirse
+Pronto a subirse. Desarrollo en progreso en el Fork.
 
