@@ -5,7 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     Transform lockTarget;
-    bool isAiming;
+    [SerializeField]bool isAiming;
     
     public bool IsAiming
     {

@@ -10,10 +10,11 @@ public class WeaponCollisionAdjustment : MonoBehaviour
       public bool Result;
       public RaycastHit HitInfo;
    }
-   
-   [SerializeField] private Transform handIK;
-   
+
+   [SerializeField] private AvatarIKGoal triggerHand = AvatarIKGoal.RightHand;
+   [SerializeField] private AvatarIKGoal holdingHand = AvatarIKGoal.LeftHand; 
    [SerializeField] private Transform weaponReference;
+   [SerializeField] private Transform weaponHandle;
    [SerializeField] private float weaponLength;
    [SerializeField] private float profileThickness;
    
@@ -21,7 +22,9 @@ public class WeaponCollisionAdjustment : MonoBehaviour
 
    private Animator animator;
    private RayResult _rayResult;
-   private float _offset;
+   [SerializeField]private FloatDampener _offset;
+   
+   Character character;
    
    private void SolveOffset()
    {
@@ -29,36 +32,41 @@ public class WeaponCollisionAdjustment : MonoBehaviour
       result.Ray = new Ray(weaponReference.position, weaponReference.forward);
       result.Result = Physics.SphereCast(result.Ray, profileThickness, out result.HitInfo, weaponLength, collisionMask);
       _rayResult = result;
-      _offset = Mathf.Max(weaponLength - Vector3.Distance(_rayResult.HitInfo.point,weaponReference.position)) * -1f;
+      _offset.TargetValue = Mathf.Max(0, weaponLength - Vector3.Distance(_rayResult.HitInfo.point, weaponReference.position)) * -1f;
       
    }
 
    private void Awake()
    {
       animator = GetComponent<Animator>();
+      character = GetComponent<Character>();
    }
 
    private void OnAnimatorIK(int layerIndex)
    {
-      Vector3 originalPosition = animator.GetIKPosition(AvatarIKGoal.RightHand);
-      animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
-      animator.SetIKPosition(AvatarIKGoal.RightHand, originalPosition + weaponReference.forward * _offset);
+      _offset.Update();
+      if (character.IsAiming)
+      {
+         Vector3 originalPosition = animator.GetIKPosition(triggerHand);
+         animator.SetIKPositionWeight(triggerHand, 1);
+         animator.SetIKPosition(triggerHand, originalPosition + weaponReference.forward * _offset.CurrentValue);
+
+         animator.SetIKPositionWeight(holdingHand, 1);
+         animator.SetIKPosition(holdingHand, weaponHandle.position);
+      }
    }
 
    private void FixedUpdate()
    {
       SolveOffset();
    }
-
-   private void Update()
-   {
-      handIK.Translate(transform.forward * _offset);
-   }
+   
 
 #if UNITY_EDITOR
    private void OnDrawGizmos()
    {
       if (!weaponReference) return;
+      Gizmos.color =  _rayResult.Result ? Color.green : Color.red;
       Vector3 startPos = weaponReference.position;
       Vector3 endPos = weaponReference.position + weaponReference.forward * weaponLength;
       Gizmos.DrawWireSphere(startPos, profileThickness);

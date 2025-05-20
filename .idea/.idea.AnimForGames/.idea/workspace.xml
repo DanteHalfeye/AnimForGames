@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="04a6c234-b15b-4ae3-ae14-4424100a37cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/1 Character Root Motion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/1 Character Root Motion.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/1 Character Root Motion.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3Procedural IK 1/3D/Animation/Procedural IK Test 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3Procedural IK 1/3D/Animation/Procedural IK Test 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3Procedural IK 1/Scripts/WeaponCollisionAdjustment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3Procedural IK 1/Scripts/WeaponCollisionAdjustment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +25,78 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/191a1970a53948f9819ac1d2e4f5c72e46ae00/35/cbc42386/Single.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/191a1970a53948f9819ac1d2e4f5c72e46ae00/57/a628ba92/IntPtr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42a57164e11343098470db47ae2f38254400/88/a8b2efe7/NativeInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/46/59468f2e/Transform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/49/005cb13f/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7b/ec211a24/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7f/84974bc4/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/ca/e490eaf0/Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5c6d48ed46b430a997a7f6acb171b701f9000/3d/ef26e924/LayoutDataStore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/09/bfec0781/Animator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/2a/3aeb3a47/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackHitboxController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageReciever.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -87,13 +151,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="37228">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="37228" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -114,13 +180,18 @@
       <workItem from="1747178945227" duration="4876000" />
       <workItem from="1747231242602" duration="7553000" />
       <workItem from="1747383922213" duration="2604000" />
-      <workItem from="1747443857774" duration="1709000" />
+      <workItem from="1747443857774" duration="2877000" />
+      <workItem from="1747519375658" duration="3771000" />
+      <workItem from="1747615918804" duration="5474000" />
+      <workItem from="1747712563459" duration="7289000" />
+      <workItem from="1747722090831" duration="5877000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
@@ -128,6 +199,17 @@
     <option name="unityProjectFolder" value="true" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -146,6 +228,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/3Procedural IK 1/Scripts/WeaponCollisionAdjustment.cs</url>
+          <line>46</line>
+          <properties documentPath="C:\Users\Eliham\Desktop\Estudio\Unity\AnimForGames\Assets\3Procedural IK 1\Scripts\WeaponCollisionAdjustment.cs" containingFunctionPresentation="Method 'OnAnimatorIK'">
+            <startOffsets>
+              <option value="1432" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1449" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
