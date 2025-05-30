@@ -736,9 +736,48 @@ ModelImporter:
           preInfinity: 3
           postInfinity: 3
           rotationOrder: 4
+      - name: StaminaMV
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.5
+            inSlope: 0.19999999
+            outSlope: 0.19999999
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.7
+            inSlope: 0.19999999
+            outSlope: 0.19999999
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 4
       events:
       - time: 0.1108545
-        functionName: DepleteStamina
+        functionName: DepleteStaminaWithParameter
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.13972603
+        functionName: ToggleHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0.85
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.26027396
+        functionName: ToggleHitbox
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0.85

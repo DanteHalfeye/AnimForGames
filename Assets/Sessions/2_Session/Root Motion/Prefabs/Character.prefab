@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6c13e5620b65f4aad69ebfd1aca410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isAiming: 0
 --- !u!1 &6013394638432195718
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +258,7 @@ ParentConstraint:
   m_GameObject: {fileID: 6013394638432195718}
   m_Enabled: 1
   serializedVersion: 2
-  m_Weight: 1
+  m_Weight: 0
   m_TranslationAtRest: {x: 0.000022649765, y: 1, z: 1.45}
   m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
@@ -587,8 +588,8 @@ MonoBehaviour:
   speedY:
     smoothTime: 0.5
   angularSpeed: 90
-  aimTarget: {fileID: 0}
-  rotationThreshold: 0
+  aimTarget: {fileID: 7506133503156374522}
+  rotationThreshold: 70
 --- !u!114 &1812380894411731360
 MonoBehaviour:
   m_ObjectHideFlags: 0

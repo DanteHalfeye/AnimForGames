@@ -45,6 +45,7 @@ public class CharacterState : MonoBehaviour
         if (currentHealth <= 0)
         {
             //death
+            print($"({name}) Dead");
         }
     }
     private void Update()

@@ -6,12 +6,47 @@
   <component name="ChangeListManager">
     <list default="true" id="04a6c234-b15b-4ae3-ae14-4424100a37cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3Procedural IK 1/3D/Animation/Procedural IK Test 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3Procedural IK 1/3D/Animation/Procedural IK Test 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3Procedural IK 1/Scripts/WeaponCollisionAdjustment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3Procedural IK 1/Scripts/WeaponCollisionAdjustment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/4_Session/Scripts/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/3D/AttackControls.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/3D/AttackControls.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/CharacterARPG.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/CharacterARPG.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/ComboLogic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/ComboLogic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageHitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageHitbox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/Hitbox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_Back_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_Back_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_Front.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_Front.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_Front_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_Front_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_L90_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/2__Walk/A/M_Big_Sword@Walk_ver_A_L90_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_BL45_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_BL45_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_BR45_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_BR45_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_F.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_F.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_F_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/3__Jogging/A/M_Big_Sword@Jogging_8Way_verA_F_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/4__Run/M_Big_Sword@Run_Fast_ver_B_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/4__Run/M_Big_Sword@Run_Fast_ver_B_Root.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/6__Jump/M_Big_Sword@Jump_ALL.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/6__Jump/M_Big_Sword@Jump_ALL.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Back.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Back.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Front.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Front.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Left.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Left.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Right.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Right.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/0__3Combos/M_Big_Sword@Attack_3Combo_2.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/0__3Combos/M_Big_Sword@Attack_3Combo_2.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/0__3Combos/M_Big_Sword@Attack_3Combo_3.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/0__3Combos/M_Big_Sword@Attack_3Combo_3.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_1B.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_1B.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_2.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_2.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_3.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_3.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_4.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_4.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/2__7Combos/M_Big_Sword@Attack_7Combo_7.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/2__7Combos/M_Big_Sword@Attack_7Combo_7.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/3_Skills/M_Big_Sword@Skill_D.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/3_Skills/M_Big_Sword@Skill_D.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/3_Skills/M_Big_Sword@Skill_F.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/3_Skills/M_Big_Sword@Skill_F.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/3_Skills/M_Big_Sword@Skill_L.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/3_Skills/M_Big_Sword@Skill_L.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Big_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Big_ver_A.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Down_StandUp.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Down_StandUp.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Small_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Small_ver_A.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/2__Back/M_Big_Sword@Damage_Back_Down_StandUp.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/2__Back/M_Big_Sword@Damage_Back_Down_StandUp.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/2__Back/M_Big_Sword@Damage_Back_Small_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/2__Back/M_Big_Sword@Damage_Back_Small_ver_A.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/3__Left/M_Big_Sword@Damage_Left_Small_ver_B.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/3__Left/M_Big_Sword@Damage_Left_Small_ver_B.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/4__Right/M_Big_Sword@Damage_Right_Small_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/4__Right/M_Big_Sword@Damage_Right_Small_ver_A.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Back_Big.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Back_Big.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/Aiming.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/1_Session/Scenes/Aiming.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Prefabs/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,76 +60,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/191a1970a53948f9819ac1d2e4f5c72e46ae00/35/cbc42386/Single.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/191a1970a53948f9819ac1d2e4f5c72e46ae00/57/a628ba92/IntPtr.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42a57164e11343098470db47ae2f38254400/88/a8b2efe7/NativeInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/46/59468f2e/Transform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/49/005cb13f/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7b/ec211a24/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7f/84974bc4/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/ca/e490eaf0/Component.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5c6d48ed46b430a997a7f6acb171b701f9000/3d/ef26e924/LayoutDataStore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/09/bfec0781/Animator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc9f39ef344c47699635b8624c64f91b34600/2a/3aeb3a47/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Eliham/Desktop/Estudio/Unity/AnimForGames/Assets/ComboLogic/Scripts/AttackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CleanUpPlayerHitbox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackHitboxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageReciever.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DamageController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -112,7 +82,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49422634&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MeMuero!!!&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -183,6 +153,9 @@
       <workItem from="1747615918804" duration="5474000" />
       <workItem from="1747712563459" duration="7289000" />
       <workItem from="1747722090831" duration="5877000" />
+      <workItem from="1747778333977" duration="483000" />
+      <workItem from="1748143502523" duration="523000" />
+      <workItem from="1748540387237" duration="9538000" />
     </task>
     <servers />
   </component>

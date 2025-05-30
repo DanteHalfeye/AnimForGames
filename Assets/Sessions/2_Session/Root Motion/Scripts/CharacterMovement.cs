@@ -11,6 +11,7 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
     [SerializeField] private Transform aimTarget;
     [SerializeField] private float rotationThreshold;
 
+    private PlayerHitboxController playerHitbox;
     private Animator animator;
     private int speedXHash, speedYHash;
 
@@ -18,9 +19,19 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
 
     private void Awake()
     {
+        playerHitbox = GetComponent<PlayerHitboxController>();
         animator = GetComponent<Animator>();
         speedXHash = Animator.StringToHash("SpeedX");
         speedYHash = Animator.StringToHash("SpeedY");
+        
+    }
+
+    public void OnDodge(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            animator.SetTrigger("Dodge");
+        }
     }
 
     public void OnMove(InputAction.CallbackContext ctx)
@@ -29,6 +40,21 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
         speedX.TargetValue = inputValue.x;
         speedY.TargetValue = inputValue.y;
 
+    }
+    public void OnRun(InputAction.CallbackContext ctx)
+    {
+        animator.SetBool("Run", ctx.ReadValue<float>() > 0.5f);
+    }
+
+
+    public void TogglePlayerHitbox(int hitboxId)
+    {
+        playerHitbox.TogglePlayerHitboxes(hitboxId);
+    }
+
+    public void CleanupPlayerHitboxes()
+    {
+        playerHitbox.CleanupPlayerHitboxes();
     }
 
     private void SolveCharacterRotation()

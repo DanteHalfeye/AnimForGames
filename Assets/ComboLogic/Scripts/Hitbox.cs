@@ -1,9 +1,12 @@
  using System;
  using UnityEngine;
+ using UnityEngine.Events;
 
-public class Hitbox : MonoBehaviour, IDamageSender<DamageMessage>
+ public class Hitbox : MonoBehaviour, IDamageSender<DamageMessage>
 {
+
  [SerializeField] float _damage;
+
 
  private void OnTriggerEnter(Collider other)
  {
