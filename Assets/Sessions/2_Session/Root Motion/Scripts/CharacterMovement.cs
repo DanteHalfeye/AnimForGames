@@ -30,8 +30,12 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
     {
         if (ctx.performed)
         {
-            animator.SetTrigger("Dodge");
+            animator.SetBool("Dodge",true);
         }
+    }
+    public void OnDodgeAnimationEnd()
+    {
+        animator.SetBool("Dodge", false);
     }
 
     public void OnMove(InputAction.CallbackContext ctx)

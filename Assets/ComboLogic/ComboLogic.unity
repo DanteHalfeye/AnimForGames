@@ -694,6 +694,11 @@ MonoBehaviour:
   verticalRotationSpeed: -10
   verticalRotationLimits: {x: -60, y: 75}
   <ParentCharacter>k__BackingField: {fileID: 0}
+--- !u!95 &207900896 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 43992d4f16e57574fa5d16ef485c0cbd, type: 3}
+  m_PrefabInstance: {fileID: 1200145319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &207900897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,6 +1778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7b208a113ebe64da2d8bb652b3488a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 207900896}
 --- !u!114 &506475633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2107,7 +2113,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8ddbed164a5e749b3e8fc46715a887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 10
+  _damageMessage:
+    sender: {fileID: 578737400}
+    amount: 10
+    damageLevel: 0
 --- !u!65 &578737402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2191,7 +2200,7 @@ Transform:
   m_GameObject: {fileID: 578737400}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.399, z: 5.43}
+  m_LocalPosition: {x: 0, y: 1.399, z: 2.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4119,7 +4128,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8ddbed164a5e749b3e8fc46715a887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 10
+  _damageMessage:
+    sender: {fileID: 0}
+    amount: 0
+    damageLevel: 0
 --- !u!1 &1840612965
 GameObject:
   m_ObjectHideFlags: 0

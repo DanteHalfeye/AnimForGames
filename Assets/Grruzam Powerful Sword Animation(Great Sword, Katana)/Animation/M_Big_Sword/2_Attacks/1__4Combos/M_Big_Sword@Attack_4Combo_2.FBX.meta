@@ -764,7 +764,7 @@ ModelImporter:
       events:
       - time: 0.1108545
         functionName: DepleteStaminaWithParameter
-        data: 
+        data: PersistentStaminaMV
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
@@ -976,7 +976,14 @@ ModelImporter:
           preInfinity: 3
           postInfinity: 3
           rotationOrder: 4
-      events: []
+      events:
+      - time: 0.98630136
+        functionName: OnHeavyChargeAnimationEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1

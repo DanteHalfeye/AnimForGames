@@ -5,7 +5,7 @@
  public class Hitbox : MonoBehaviour, IDamageSender<DamageMessage>
 {
 
- [SerializeField] float _damage;
+ [SerializeField] DamageMessage _damageMessage;
 
 
  private void OnTriggerEnter(Collider other)
@@ -18,11 +18,7 @@
 
  public void SendDamage(IDamageReciever<DamageMessage> receiver)
  {
-  DamageMessage dmg = new DamageMessage()
-  {
-   sender = transform.root.gameObject,
-   amount = _damage
-  };
-  receiver.RecieveDamage(dmg);
+ 
+  receiver.RecieveDamage(_damageMessage);
  }
 }

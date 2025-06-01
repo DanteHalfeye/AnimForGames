@@ -1048,7 +1048,14 @@ ModelImporter:
         intParameter: 0
         messageOptions: 0
       - time: 0.6136986
-        functionName: ToggelPlayerHitbox
+        functionName: TogglePlayerHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: OnDodgeAnimationEnd
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

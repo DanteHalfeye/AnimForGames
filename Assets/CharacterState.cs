@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class CharacterState : MonoBehaviour
+public class CharacterState : MonoBehaviour,ICharacterComponent
 {
     [SerializeField] private float startStamina = 40;
     [SerializeField] private float staminaRegen = 20;
@@ -25,13 +25,14 @@ public class CharacterState : MonoBehaviour
 
     public void DepleteStaminaWithParameter(string parameter)
     {
-        //float motionValue =  GetComponent<Animator>().GetFloat(parameter);
-        //DepleteStamina(motionValue);
+      float motionValue =  ParentCharacter.GetComponentInChildren<Animator>().GetFloat(parameter);
+        DepleteStamina(motionValue);
     }
 
     private void Start()
     {
         currentStamina = startStamina;
+        ParentCharacter = FindFirstObjectByType<Character>();
     }
 
     public void DepleteStamina(float amount)
@@ -39,17 +40,21 @@ public class CharacterState : MonoBehaviour
         currentStamina -= GetStaminaDepletion() * amount;
     }
 
-    public void DepleteHealth(float amount)
+    public void DepleteHealth(float amount, out bool zeroHealth)
     {
         currentHealth -= amount;
+        zeroHealth = false;
         if (currentHealth <= 0)
         {
             //death
             print($"({name}) Dead");
-        }
+            zeroHealth = true;
+        } 
     }
     private void Update()
     {
         RegenStamina(staminaRegen * Time.deltaTime);
     }
+
+    public Character ParentCharacter { get; set; }
 }

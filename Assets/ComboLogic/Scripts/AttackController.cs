@@ -20,15 +20,41 @@ public class AttackController : MonoBehaviour
         }
     }
     
-    public void OnHeavyAttack(CallbackContext ctx)
+    private bool isCharging = false;
+
+    public void OnHeavyAttack(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed || ctx.canceled)
+        if (ctx.performed)
         {
             if (Game.Instance.PlayerOne.CurrentStamina > 0)
-                anim.SetTrigger("HeavyAttack");
+            {
+                // Start charging
+                isCharging = true;
+                anim.SetTrigger("HeavyAttackCharge"); // start charging animation
+            }
+        }
+        else if (ctx.canceled)
+        {
+            if (isCharging)
+            {
+                // Release button => execute charge attack
+                isCharging = false;
+
+                anim.SetTrigger("HeavyAttack");  // trigger actual heavy attack animation
+                // You can also consume stamina here
+            }
         }
     }
-
+    
+    public void OnHeavyChargeAnimationEnd()
+    {
+        if (isCharging)
+        {
+            isCharging = false;
+            anim.ResetTrigger("HeavyAttackCharge");
+        }
+    }
+    
     public void DepleteStamina(float value)
     {
         Game.Instance.PlayerOne.DepleteStamina(value);
