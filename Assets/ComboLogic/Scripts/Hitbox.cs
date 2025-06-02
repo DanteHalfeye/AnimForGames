@@ -12,6 +12,7 @@
  {
   if (other.TryGetComponent(out IDamageReciever<DamageMessage> receiver))
   {
+   print(other);
    SendDamage(receiver);
   }
  }

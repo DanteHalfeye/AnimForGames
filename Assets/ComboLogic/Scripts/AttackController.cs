@@ -57,11 +57,18 @@ public class AttackController : MonoBehaviour
     
     public void DepleteStamina(float value)
     {
-        Game.Instance.PlayerOne.DepleteStamina(value);
+        if (this.gameObject.CompareTag("Player"))
+        {
+             Game.Instance.PlayerOne.DepleteStamina(value);
+            
+        }
     }
     public void DepleteStaminaWithParameter(string value)
     {
+        if (this.gameObject.CompareTag("Player"))
+        {
         Game.Instance.PlayerOne.DepleteStaminaWithParameter(value);
+        }
     }
 
     private void Awake()

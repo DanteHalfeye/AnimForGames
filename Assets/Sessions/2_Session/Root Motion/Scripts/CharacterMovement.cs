@@ -1,16 +1,22 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Animator))]
 public class CharacterMovement : MonoBehaviour, ICharacterComponent
 {
+    public enum InputType
+    {
+        Player,
+        NPC
+    }
     [SerializeField] private Camera m_Camera;
-    [SerializeField] private FloatDampener speedX;
-    [SerializeField] private FloatDampener speedY;
+    [SerializeField] public FloatDampener speedX;
+    [SerializeField] public FloatDampener speedY;
     [SerializeField] private float angularSpeed;
     [SerializeField] private Transform aimTarget;
     [SerializeField] private float rotationThreshold;
-
+    [SerializeField]InputType currentInputType = InputType.Player;
     private PlayerHitboxController playerHitbox;
     private Animator animator;
     private int speedXHash, speedYHash;
@@ -19,6 +25,7 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
 
     private void Awake()
     {
+        
         playerHitbox = GetComponent<PlayerHitboxController>();
         animator = GetComponent<Animator>();
         speedXHash = Animator.StringToHash("SpeedX");
@@ -33,6 +40,10 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
             animator.SetBool("Dodge",true);
         }
     }
+    public void OnDodge()
+    {
+            animator.SetBool("Dodge",true);
+    }
     public void OnDodgeAnimationEnd()
     {
         animator.SetBool("Dodge", false);
@@ -45,9 +56,19 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
         speedY.TargetValue = inputValue.y;
 
     }
+    public void OnMove(float deltaX, float deltaY)
+    {
+        speedX.TargetValue = deltaX;
+        speedY.TargetValue = deltaY;
+
+    }
     public void OnRun(InputAction.CallbackContext ctx)
     {
         animator.SetBool("Run", ctx.ReadValue<float>() > 0.5f);
+    }
+    public void OnRun(bool state)
+    {
+        animator.SetBool("Run", state);
     }
 
 
@@ -77,13 +98,14 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
 
     private void Update()
     {
-        speedX.Update();
-        speedY.Update();
-        
+        if (animator.updateMode != AnimatorUpdateMode.Normal) return;
+        ApplyMotion();
 
-        animator.SetFloat(speedXHash, speedX.CurrentValue); 
-        animator.SetFloat(speedYHash, speedY.CurrentValue);
+        if (currentInputType != InputType.Player) return;
+
+       
         SolveCharacterRotation();
+        
         if (!ParentCharacter.IsAiming)
         {
             ApplyCharacterRotation();
@@ -91,6 +113,43 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
         // else
         //     ApplyCharacterRotationForAim();
     }
+
+    private void FixedUpdate()
+    {
+        if (animator.updateMode != AnimatorUpdateMode.Fixed) return;
+        ApplyMotion();
+
+        if (currentInputType != InputType.Player) return;
+
+       
+        SolveCharacterRotation();
+        
+        if (!ParentCharacter.IsAiming)
+        {
+            ApplyCharacterRotation();
+        }
+        // else
+        //     ApplyCharacterRotationForAim();
+    }
+
+    private void ApplyMotion()
+    {
+        speedX.Update();
+        speedY.Update();
+        if (currentInputType == InputType.NPC)
+        {
+            // bypass smoothing
+            
+            animator.SetFloat(speedXHash, speedX.TargetValue);
+            animator.SetFloat(speedYHash, speedY.TargetValue);
+        }
+        else
+        {
+            animator.SetFloat(speedXHash, speedX.CurrentValue);
+            animator.SetFloat(speedYHash, speedY.CurrentValue);
+        }
+    }
+
 
     private void ApplyCharacterRotation()
     {

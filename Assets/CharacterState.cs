@@ -1,12 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterState : MonoBehaviour,ICharacterComponent
 {
     [SerializeField] private float startStamina = 40;
-    [SerializeField] private float staminaRegen = 20;
+    [SerializeField] private float staminaRegen = 15;
 
-    [SerializeField] private float startHealth = 10000;
+    [SerializeField] private float startHealth = 50;
     
     [SerializeField] private float currentStamina;
     [SerializeField] private float currentHealth;
@@ -32,6 +33,7 @@ public class CharacterState : MonoBehaviour,ICharacterComponent
     private void Start()
     {
         currentStamina = startStamina;
+        currentHealth = startHealth;
         ParentCharacter = FindFirstObjectByType<Character>();
     }
 
@@ -46,11 +48,18 @@ public class CharacterState : MonoBehaviour,ICharacterComponent
         zeroHealth = false;
         if (currentHealth <= 0)
         {
-            //death
             print($"({name}) Dead");
             zeroHealth = true;
-        } 
+            StartCoroutine(RestartSceneAfterDelay(3f));
+        }
     }
+    private System.Collections.IEnumerator RestartSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
     private void Update()
     {
         RegenStamina(staminaRegen * Time.deltaTime);

@@ -1407,7 +1407,7 @@ BlendTree:
   m_MaxThreshold: 0.27272728
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
-  m_BlendType: 2
+  m_BlendType: 3
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -2123,10 +2123,10 @@ AnimatorStateMachine:
     m_Position: {x: 250, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4606571458176734386}
-    m_Position: {x: 590, y: 110, z: 0}
+    m_Position: {x: 660, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8769083874680573820}
-    m_Position: {x: 470, y: -260, z: 0}
+    m_Position: {x: 520, y: -170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3608532247456106746}
     m_Position: {x: 270, y: 510, z: 0}

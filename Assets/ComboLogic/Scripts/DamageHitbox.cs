@@ -14,7 +14,7 @@ public class DamageHitbox : MonoBehaviour, IDamageReciever<DamageMessage>
     public AttackQueueEvent OnHit;
     public void RecieveDamage(DamageMessage damage)
     {
-        if (damage.sender == transform.root.gameObject)
+        if (damage.sender.transform.root.gameObject == transform.root.gameObject)
         {
             return;
         }

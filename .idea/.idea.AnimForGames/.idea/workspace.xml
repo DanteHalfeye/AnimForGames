@@ -8,26 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CharacterState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/3D/AttackControls.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/3D/AttackControls.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/ComboLogic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/ComboLogic.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageHitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageHitbox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/Hitbox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DamageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DamageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Back.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Back.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Front.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Front.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Left.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Left.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Right.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/1_Movements/8__Dodge/M_Big_Sword@Dodge_Right.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_1B.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_1B.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_2.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_2.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_3.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_3.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_4.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/2_Attacks/1__4Combos/M_Big_Sword@Attack_4Combo_4.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Down_StandUp.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Down_StandUp.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Small_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/1__Front/M_Big_Sword@Damage_Front_Small_ver_A.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/2__Back/M_Big_Sword@Damage_Back_Small_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/2__Back/M_Big_Sword@Damage_Back_Small_ver_A.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/3__Left/M_Big_Sword@Damage_Left_Small_ver_B.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/3__Left/M_Big_Sword@Damage_Left_Small_ver_B.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/4__Right/M_Big_Sword@Damage_Right_Small_ver_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/4__Right/M_Big_Sword@Damage_Right_Small_ver_A.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/6__Die/M_Big_Sword@Damage_Die.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Big_Sword/4_Damages/6__Die/M_Big_Sword@Damage_Die.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/1_Movements/9__Idle_To_Move/M_katana_Blade@Idle_B_To_Run_B_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/1_Movements/9__Idle_To_Move/M_katana_Blade@Idle_B_To_Run_B_Root.FBX.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +28,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0e9f695a951346e38d4cecce88bfb58b11200/92/09a000dd/NavMeshAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/191a1970a53948f9819ac1d2e4f5c72e46ae00/57/a628ba92/IntPtr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/191a1970a53948f9819ac1d2e4f5c72e46ae00/cf/08f86567/List`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/46/59468f2e/Transform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/66/d2e32025/InvokableCallList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7b/ec211a24/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/7f/84974bc4/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/83/8e84e805/UnityEventBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/ca/e490eaf0/Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/e3/6ced094d/Random.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/ea/e2649293/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5c6d48ed46b430a997a7f6acb171b701f9000/3d/ef26e924/LayoutDataStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/Debug/NavAgentSetTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/NavMotionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/StateMachines/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/StateMachines/BasicEnemyAiContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/StateMachines/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/StateMachines/EnemyStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/StateMachines/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/5 AI/Scripts/StateMachines/StateTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CleanUpPlayerHitbox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackHitboxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageReciever.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +68,7 @@
     &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.26789838&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3613707&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Eliham&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -102,13 +108,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20556">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="20556" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -139,6 +147,7 @@
       <workItem from="1748540387237" duration="11763000" />
       <workItem from="1748578557076" duration="3246000" />
       <workItem from="1748736607586" duration="1532000" />
+      <workItem from="1748817876703" duration="20594000" />
     </task>
     <servers />
   </component>
@@ -195,6 +204,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/DamageController.cs</url>
+          <line>54</line>
+          <properties documentPath="C:\Users\Eliham\Desktop\Estudio\Unity\AnimForGames\Assets\DamageController.cs" containingFunctionPresentation="Method 'DepleteHealth'">
+            <startOffsets>
+              <option value="1835" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1857" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
