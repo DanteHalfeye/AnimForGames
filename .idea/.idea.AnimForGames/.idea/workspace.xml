@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04a6c234-b15b-4ae3-ae14-4424100a37cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnimForGames/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/3D/AttackControls.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/3D/AttackControls.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/AttackController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageHitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/DamageHitbox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComboLogic/Scripts/Hitbox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DamageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DamageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/1_Movements/9__Idle_To_Move/M_katana_Blade@Idle_B_To_Run_B_Root.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/1_Movements/9__Idle_To_Move/M_katana_Blade@Idle_B_To_Run_B_Root.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sessions/2_Session/Root Motion/Scripts/CharacterMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
     &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3613707&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.36143187&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Eliham&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -108,15 +100,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20556">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20556" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -148,6 +138,7 @@
       <workItem from="1748578557076" duration="3246000" />
       <workItem from="1748736607586" duration="1532000" />
       <workItem from="1748817876703" duration="20594000" />
+      <workItem from="1748842297361" duration="1022000" />
     </task>
     <servers />
   </component>
@@ -204,19 +195,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/DamageController.cs</url>
-          <line>54</line>
-          <properties documentPath="C:\Users\Eliham\Desktop\Estudio\Unity\AnimForGames\Assets\DamageController.cs" containingFunctionPresentation="Method 'DepleteHealth'">
-            <startOffsets>
-              <option value="1835" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1857" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
