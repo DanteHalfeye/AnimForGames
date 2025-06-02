@@ -21,4 +21,7 @@ https://youtu.be/D7UH3uheLys
 https://github.com/user-attachments/assets/615e91ca-9dde-4ab8-904f-80a95e2c8dd5
 
 En la web build los cambios de estado se rompen pero en pc funcionan perfecto
-
+los controles son WASD para moverse,
+LClick para light attack, RClick para Heavy Attack
+Spacio para esquivar 
+Shift Para correr
